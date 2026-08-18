@@ -8,3 +8,5 @@ with sync_playwright() as p:
     print(response.status)
 
     print(response.json()[2]["status"])
+
+    
